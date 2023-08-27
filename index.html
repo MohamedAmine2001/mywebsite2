@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="store-shop-shoping">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="test.css">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: azure;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    padding: 10px 130px;
+}
+.logo{
+    color: #3a6cf4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.logo:hover{
+    color: purple;
+}   
+
+nav a{
+    color: #3a6cf4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.0em;
+    padding-left: 15px;
+}
+nav a:hover{
+    color: purple;
+
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=OmpAEYLG&id=6DE08EE89066EE66D24E69E3448002E0E37F3864&thid=OIP.OmpAEYLGeN9ByID6LmooIwHaE8&mediaurl=https%3a%2f%2fmedia.istockphoto.com%2fphotos%2fworking-programmer-picture-id536809341%3fk%3d6%26m%3d536809341%26s%3d612x612%26w%3d0%26h%3dHH24A0OCnSQn_HsL5GO9EdmBqtdNcJwLtEpKYobgsrU%3d&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3a6a401182c678df41c880fa2e6a2823%3frik%3dZDh%252f4%252bACgETjaQ%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d799%26srw%3d1197&exph=409&expw=612&q=image+pc+programer&simid=608001094313791979&FORM=IRPRST&ck=61DCC44A97BE58E87802A09C0B02B437&selectedIndex=10) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: grey;
+   
+}
+
+
+div h2{
+    color: #000016;
+    font-size: 20px;
+    
+
+}
+span{
+    color: cyan;
+    font-size: 50px;
+    font-family:'Poppins', sans-serif;
+    
+}
+div h3{
+    color: #000016;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.main-btn{
+    color: aliceblue;
+    background-color: darkcyan;  
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0.9375em 2.1875em; 
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s ease;
+}
+.main-btn:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+.socialmedia a{
+    color: aliceblue;
+    font-size: 1.7em;
+    padding-right: 20px;
+    margin-left: 15px;
+
+}
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(41, 76, 192);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin: 30px;
+}
+
+.contect{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background-color:#fff ; 
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/30%) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    text-align: center;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    text-align: center;
+}
+
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+    
+}
+
+.title{
+    display: flex;
+    justify-content:center;
+    color:rgb(41, 76, 192);
+    font-size: 2.2em ;
+    font-weight: 800 ;
+    margin: 30px;
+
+}
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+
+footer{
+    background-color: #000016;
+    width: 100%;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+.footer-title{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+.footer span{
+    color: #3a6cf4;
+    font-size: 20px;
+    
+    font-family: initial;
+    
+}
+.footer .socialmedia a{
+    font-size: 1.3em;
+    padding-top: 5px ;
+    display: inline-block;
+}
+
+@media(max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
+
+
+</style>
+
+<title>
+    My Website
+</title>
+
+</head>
+<body>
+    <header>
+    <a href="#" class="logo">Amine</a>
+    <nav href="#navigation">
+    <a href="#service">Service</a>
+    <a href="#project">Project</a>
+    <a href="#contect">Contect</a>
+    </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <h2>hello im Amine<br><span>Centent Creater</span></h2>
+            <h3>I am a Web Developer</h3><br>
+            <a href="#project" class="main-btn">view my project</a><br><br>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/profile.php?id=100025167970787" class="my-fb"><i class="fa-brands fa-facebook" target="_balnk"></i></a>
+                <a href="https://www.instagram.com/amine.med000/" class="my-inst"><i class="fa-brands fa-square-instagram"></i></a>    
+                <a href="https://www.youtube.com/channel/UC9pH_UkP4b7WRjFFGwZn8YA" class="my-yout"><i class="fa-brands fa-youtube"></i></a> 
+                
+                                
+            </div>
+        </div>
+        
+    </section>
+
+    <section1 class="cards" id="Service">
+        <h2 class="title">Service</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-pen-to-square"></i>
+
+
+                </div>
+                    <div class="info">
+                        <h4>Script Writing</h4>
+                        <p>I research and write scripts and a
+                            junior web developer seeking
+                            to develop my skills and gain experience
+                        </p>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                    <div class="info">
+                        <h5>vedio editer</h5>
+                        <p>Record and shoot videos taking 
+                            into consideration proper settings,
+                            followed by production & post-production 
+                            work</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</section>
+    <section class="cards" id="contect">
+        <h2 class="title">Contect</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+
+
+                </div>
+                    <div class="info">
+                        <h4>My Number</h4>
+                        <p>0540333826</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-message"></i>
+                </div>
+                    <div class="info">
+                        <h5>Email</h5>
+                        <p>am9944549@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="footer">
+        <p class="footer-title">Copyrights <span> @ Miloua Mohamed </span><span>Amine</span></p>
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/profile.php?id=100025167970787" class="my-fb"><i class="fa-brands fa-facebook" target="_balnk"></i></a>
+            <a href="https://www.instagram.com/amine.med000/" class="my-inst"><i class="fa-brands fa-square-instagram"></i></a>    
+            <a href="https://www.youtube.com/channel/UC9pH_UkP4b7WRjFFGwZn8YA" class="my-yout"><i class="fa-brands fa-youtube"></i></a> 
+            
+                            
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+</body>
